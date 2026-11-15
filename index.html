@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZikriyonDB</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:44rem;margin:3rem auto;padding:0 1rem;line-height:1.55;color:#1b2433}
+pre{background:#0e131b;color:#e8edf5;padding:1rem;border-radius:12px;overflow-x:auto}
+code{font-family:ui-monospace,Menlo,Consolas,monospace}
+a{color:#2563eb}.muted{color:#5b6678}
+</style>
+</head>
+<body>
+<h1>ZikriyonDB</h1>
+<p>A small, crash-safe SQL database with a built-in HTTP API, made for websites written in plain HTML, JavaScript and PHP. It runs on servers, Raspberry Pis and phones, and can publish itself on a public HTTPS address without router setup.</p>
+
+<h2>Install (Debian, Ubuntu)</h2>
+<pre><code>curl -fsSL https://zikriyondb.zeaipc.in/install.sh | sudo sh</code></pre>
+<p>This adds the signed ZikriyonDB repository and runs <code>apt install zikriyondb</code>. Afterwards:</p>
+<pre><code>sudo cat /etc/zikriyondb/admin.key        # your administrator key
+curl http://127.0.0.1:7860/v1/health
+zikriyonctl help</code></pre>
+<p class="muted">Other Linux: the same command installs signed static binaries to /usr/local/bin. To host your own relay: <code>... | sudo sh -s -- relay</code>.</p>
+
+<h2>Licence</h2>
+<p>Source-available under the Business Source License 1.1: free for production use in your own websites and apps; offering ZikriyonDB itself as a hosted database or tunnel service to others needs a commercial licence. Each version becomes Apache-2.0 four years after release.</p>
+<p class="muted">&copy; 2026 <a href="https://zeaipc.info">ZEAIPC</a> &middot; founder@zeaipc.info</p>
+</body>
+</html>
