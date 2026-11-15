@@ -1,9 +1,9 @@
 #!/bin/sh
 # ZikriyonDB installer for Linux.
-#   curl -fsSL https://zikriyondb.zeaipc.in/install.sh | sudo sh            (database server)
-#   curl -fsSL https://zikriyondb.zeaipc.in/install.sh | sudo sh -s -- relay (relay + cloud control plane)
+#   curl -fsSL https://zikriyondb.zeaipc.info/install.sh | sudo sh            (database server)
+#   curl -fsSL https://zikriyondb.zeaipc.info/install.sh | sudo sh -s -- relay (relay + cloud control plane)
 set -eu
-BASE="https://zikriyondb.zeaipc.in"
+BASE="https://zikriyondb.zeaipc.info"
 case "${1:-zikriyondb}" in
   zikriyondb) PKG=zikriyondb ;;
   relay|zikriyondb-relay) PKG=zikriyondb-relay ;;
