@@ -1,0 +1,42 @@
+Package: zikriyondb
+Version: 0.1.0~beta.1
+Architecture: arm64
+Maintainer: ZEAIPC <founder@zeaipc.info>
+Recommends: sudo, curl
+Homepage: https://zikriyondb.zeaipc.in
+Priority: optional
+Section: database
+Filename: pool/main/z/zikriyondb/zikriyondb_0.1.0~beta.1_arm64.deb
+Size: 3998476
+SHA256: 7639b0b96f38784263ab8ff17089f0a8324e0498ca9b4df023476d27012baf1b
+SHA1: 3af29d2619006da8bfd8fdab5d06966684ba15f8
+MD5sum: 3a98999830256bc66956cdee15bc2e52
+Description: small, crash-safe SQL database with an HTTP API
+ ZikriyonDB stores data in a single file with a write-ahead log, speaks SQL
+ (joins, indexes, transactions, row-level security) and serves a JSON HTTP API
+ that web pages can call directly. It can publish itself on a public HTTPS
+ address through an outbound tunnel, so it also runs on phones and small
+ devices behind a router.
+ .
+ Source-available under the Business Source License 1.1.
+
+Package: zikriyondb-relay
+Version: 0.1.0~beta.1
+Architecture: arm64
+Maintainer: ZEAIPC <founder@zeaipc.info>
+Recommends: caddy | nginx, certbot
+Homepage: https://zikriyondb.zeaipc.in
+Priority: optional
+Section: net
+Filename: pool/main/z/zikriyondb-relay/zikriyondb-relay_0.1.0~beta.1_arm64.deb
+Size: 2977922
+SHA256: a468ff1ea586890e62f1d5786a1101cb028feca238f4ea8b070203750d993887
+SHA1: fd2723b7c236db34e71a96b97728aea24cb0b751
+MD5sum: ea979e3bda6178f5402ef2700e0ca38a
+Description: relay and cloud control plane for ZikriyonDB
+ Gives every ZikriyonDB device a public HTTPS address through an outbound,
+ TLS-protected tunnel, and (optionally) lets users create such addresses with a
+ cloud key. For people who host their own relay.
+ .
+ Source-available under the Business Source License 1.1.
+

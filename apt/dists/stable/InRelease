@@ -5,44 +5,44 @@ Origin: ZEAIPC
 Label: ZikriyonDB
 Suite: stable
 Codename: stable
-Date: Sun, 15 Nov 2026 18:24:23 UTC
+Date: Wed, 18 Nov 2026 12:34:44 UTC
 Architectures: amd64 arm64
 Components: main
 Description: ZikriyonDB packages by ZEAIPC
 MD5Sum:
- 166495560cee3a4689b331746e95e044 1659 main/binary-amd64/Packages
- 175d78c0099f05f0a4d9c724fa818182 872 main/binary-amd64/Packages.gz
+ 34f75108d0c724780eae2f550affe9fc 1687 main/binary-amd64/Packages
+ 7f903a9686fcb4244821a0ab91b8034d 880 main/binary-amd64/Packages.gz
  221f1324deb8fa81ab9dc771bf36e87e 128 main/binary-amd64/Release
- d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
- 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ a567a842290ac2a971f273f2a21a0b45 1687 main/binary-arm64/Packages
+ 1536649933ebb8b8f4a1bf85ce58b959 880 main/binary-arm64/Packages.gz
  74f2093a4dad3c51819cc430a1dc91e3 128 main/binary-arm64/Release
 SHA1:
- c9579f31a006001bcb6a89e0e0c4127c4bdc9653 1659 main/binary-amd64/Packages
- 697538be19b38e962288c9308bb4c07b12961447 872 main/binary-amd64/Packages.gz
+ def94ef6e5f6f19f3660a7f6dc8992e0bdc183a1 1687 main/binary-amd64/Packages
+ 77268db60196731df14fac2eb31e3c2c6a712091 880 main/binary-amd64/Packages.gz
  3fb74d9e8097c0b1a734f949af72597cf9296b60 128 main/binary-amd64/Release
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
- 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ fca8f253dc88fc4f92ee23b5b5d92489f340650c 1687 main/binary-arm64/Packages
+ 949b29fb5fce614f555dfa2a444189ab428c37b6 880 main/binary-arm64/Packages.gz
  dd1b4f253e070a6afa0aaacaf9fdd439fdf92fb9 128 main/binary-arm64/Release
 SHA256:
- 87410bf39ab71ba1cb262a65d2e7436940edcc3aa594298bb30d6d2d60038f7a 1659 main/binary-amd64/Packages
- f6cb24b756dddaa8addc984c4d2c197aa8eba7128f7ecf3a84475ba78d663209 872 main/binary-amd64/Packages.gz
+ e5de73d434879ef5b1c7b57830b6c182e27a5be6a7c4f8640f355c5616ffe7e5 1687 main/binary-amd64/Packages
+ b74a2a0c960fc36d90d6b18df2b0cfd797a3a885dfcffc138a30afecf91c9516 880 main/binary-amd64/Packages.gz
  a7e8c0aafbbc56e1a19b267eec0585c3e393523ed4b317f69141c6e0d93bab23 128 main/binary-amd64/Release
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
- 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ 6acbb10e927d57dfe363562a129a607b9444bacc2f81f54a2fd3d30b1b3c04be 1687 main/binary-arm64/Packages
+ e08a9041110cbb0289063bb61e1ea9a615756cf3d3327f361bcab0b56b055932 880 main/binary-arm64/Packages.gz
  94fae082d84c938c2ff68dabaaa20ed5857b2e8e92a6de1a5c0daf468e7fcfe3 128 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEzzUT0s8+8yfgHpZf2m2kQDbEssYFAmr5+NcACgkQ2m2kQDbE
-ssY7gg/+Iwt80VYUE6ajt58uN3+Pu/I/SxI1hzUSIKDos/CzTT8K8bJoVDgGlTkL
-T8mVj73qq16fqRhET6W+Ol1mGo/NCrr+GB1XOYapEk419F6rUGIqxYp5ZlmzhKpb
-YtIyoBjs6mCOTojLXoL6+qWSyI93t8c5lTNeMU7AK4BJjCm9FQsmdi27rX82h01e
-yhFqyHgOarfGMLwGqzoV6EjiQQWA2HaiNF3dljmF61zBH4rxlikblMtuhRS8ZaGd
-mYPXj9fKlrpXw9Ttvch5VYaeDVdIoCQ4kAX2FhT7MrqqS3xSSpipdnQtkC58+MLd
-XcYi0qyFEl0GWjdlkm+1HQSbHD/sSY6CO79lVuaPJKJN6rQQf9431SYJVLt9IX/R
-qm3OJqgjS9jKJSsShETA+U27ZiYu3P6r4MITFQefm3T6HyY658Yc8E8N5TR+fH84
-FdZwko8gnGwvvG/u+MNdnK7Wlq43qVNFU8IQaUCln6F3nIHE8gvpivBsL5HKcpG8
-eAiIpJQb1Qtq99ET5R2CbWy6OrJrDgrqbI0RgOAJZr+IOY1t0J4ASE9JCy38le4h
-OncAbqP1LPbAoWWTZdKt0FfS3Nv+axv130mvO5LOMA0+ZSq8H3Aq/Ksh5FkjCnHY
-3qwUWQb9eeRSjll/FFBotGsiwYnw8Xj4tpl/dDDLGFr6e1n/df4=
-=wHEV
+iQIzBAEBCgAdFiEEzzUT0s8+8yfgHpZf2m2kQDbEssYFAmr9m2UACgkQ2m2kQDbE
+ssZ3DBAAsv9uOVtGyKOyewY194pp0QIKTQ06b8qCsI4VaFmAYoEC8t+Aost4WnYh
+dnEUzfpM6GqyHnNCRDfjBSuAf+/beSevNxKkzRaVooAqBdN4UXOEvj0v0das77eo
+F6ikPhQyvPU7fMY6WJB1ahrr7kHea1VGP41LkEMSLvLwOytVkkyNLpqnQv7OmZeO
+Fw5OskN5ycN7vEO9j54sdNnYN10cEkRdolYucoFRyIqQTTT7c8Q8e7XTEokCrru6
+UBNk2FzN8ozQqoBNBpDclwJzcUK2M/L+VUjLfD4LHrfhTkTeYa/7GF3HHRowHk/v
+Z46ICGUiqxHZPJijSaHKXrhtS+qH9u358k6Bk+KSZPbWK+ijQOrus1Z6YXyosUE2
+XnwTrNaZxw3ybBlzdSmMaKDBZsnyvwXmENEXFnuv5TPy+Qp1IynY1YdeFo9+qGJ5
++6Hcqelsu+lyKmNBN7IMu20fcK3MDsrsKVd9dlR2khT//YGvh0owR5AiHFBozGS4
+AHqXyEGlKCvHnJYYI7tRJLmv2dBUkWnrRCwaPh21LpHxB+g5KzilTsym3nq2p/c7
+HTeypwMK70SrQHFKWcIjst7IIZ6HAM2wCD7mTjEm2EByUeuyhHH3rfkmCEFlSmEO
+wDPYTrD3utlMGp8RZlu6VZumrhD2DLumlJU6yJRORX49xjQMGcU=
+=T5bR
 -----END PGP SIGNATURE-----

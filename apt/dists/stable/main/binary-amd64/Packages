@@ -1,16 +1,16 @@
 Package: zikriyondb
-Version: 0.1.0
+Version: 0.1.0~beta.1
 Architecture: amd64
 Maintainer: ZEAIPC <founder@zeaipc.info>
 Recommends: sudo, curl
 Homepage: https://zikriyondb.zeaipc.in
 Priority: optional
 Section: database
-Filename: pool/main/z/zikriyondb/zikriyondb_0.1.0_amd64.deb
-Size: 1371500
-SHA256: 15e5507ce26a0634b008ca0c4fd52ae0155fadb5ce36116f8b976fb1b6d5ad34
-SHA1: 8cb8de12d5843b46818024fb5ccb7757d07522ac
-MD5sum: 8cff4db7085c3ae0952a775234083237
+Filename: pool/main/z/zikriyondb/zikriyondb_0.1.0~beta.1_amd64.deb
+Size: 1476822
+SHA256: 9f44478dd5134dd149d11a9f55e75ff53c71de4124aec52181436e4d35fbae09
+SHA1: ae2653ff6edb0ba8439519f709c31f0a71e6e3ee
+MD5sum: 6aa972290416cb60d060cbf218a345cb
 Description: small, crash-safe SQL database with an HTTP API
  ZikriyonDB stores data in a single file with a write-ahead log, speaks SQL
  (joins, indexes, transactions, row-level security) and serves a JSON HTTP API
@@ -21,18 +21,18 @@ Description: small, crash-safe SQL database with an HTTP API
  Source-available under the Business Source License 1.1.
 
 Package: zikriyondb-relay
-Version: 0.1.0
+Version: 0.1.0~beta.1
 Architecture: amd64
 Maintainer: ZEAIPC <founder@zeaipc.info>
 Recommends: caddy | nginx, certbot
 Homepage: https://zikriyondb.zeaipc.in
 Priority: optional
 Section: net
-Filename: pool/main/z/zikriyondb-relay/zikriyondb-relay_0.1.0_amd64.deb
-Size: 1051496
-SHA256: d4ac17fe59b29195ec8e483f2cdad62a7d49e81298b60c55c48f5a32d6f0573e
-SHA1: 50176c428e19e5d09afe8c71eeade9c5d42bddca
-MD5sum: beab05aaba7745d48ba8c630af12f87e
+Filename: pool/main/z/zikriyondb-relay/zikriyondb-relay_0.1.0~beta.1_amd64.deb
+Size: 1077932
+SHA256: 2701d06d679adaf17dda0c6508c486505977c56558ec3e60496eb771c9716c73
+SHA1: 4a7e59951ba0999e934a6b866fe69f5ada396abc
+MD5sum: 5ad5b4f434ede8b7bb24695de8b839f2
 Description: relay and cloud control plane for ZikriyonDB
  Gives every ZikriyonDB device a public HTTPS address through an outbound,
  TLS-protected tunnel, and (optionally) lets users create such addresses with a
